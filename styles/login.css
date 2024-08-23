@@ -121,3 +121,53 @@ button{
 .register p a:hover{
     text-decoration: underline
 }
+
+
+/* Estilo para dispositivos móveis (tela menor que 768px) */
+@media (max-width: 768px) {
+    .form-box {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .inputbox input {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+}
+
+/* Estilo para tablets (tela entre 768px e 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .form-box {
+        width: 70%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .inputbox input {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}

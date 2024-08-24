@@ -247,10 +247,11 @@ footer a {
 
     .profile span {
         font-size: 12px;
+        display: block;
     }
 
     .profile button {
-        width: 100%;
+        width: 50%;
         padding: 7px;
     }
 
@@ -271,6 +272,12 @@ footer a {
     .quick-options {
         grid-template-columns: 1fr;
         gap: 10px;
+        text-align: center;
+    }
+
+    .quick-options .box button{
+        width: 60%;
+        margin: auto;
     }
 
     .header {
@@ -298,50 +305,7 @@ footer a {
     }
 
     .tags span {
-        font-size: 12px;
+        font-size: 18px;
         padding: 3px 5px;
     }
-}
-
-/* Responsividade para Celulares Muito Pequenos (largura abaixo de 400px) */
-@media screen and (max-width: 400px) {
-    .profile img {
-        width: 60px;
-    }
-
-    .profile h3 {
-        font-size: 14px;
-    }
-
-    .profile span {
-        font-size: 10px;
-    }
-
-    .profile button {
-        padding: 5px;
-    }
-
-    .menu a {
-        padding: 6px;
-        font-size: 12px;
-    }
-
-    .quick-options {
-        grid-template-columns: 1fr;
-        gap: 5px;
-    }
-
-    .header .logo {
-        font-size: 18px;
-    }
-
-    .header-icons i {
-        font-size: 0.9rem;
-    }
-
-    .tags span {
-        font-size: 10px;
-        padding: 2px 4px;
-    }
-
 }

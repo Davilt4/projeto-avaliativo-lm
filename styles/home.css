@@ -175,3 +175,173 @@ footer a {
     color: #505b94;
     text-decoration: none;
 }
+
+
+
+/* Responsividade para Tablets (largura entre 600px e 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .profile img {
+        width: 80px;
+    }
+
+    .profile h3 {
+        font-size: 18px;
+    }
+
+    .profile span {
+        font-size: 14px;
+    }
+
+    .profile button {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .menu a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .quick-options {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .header-icons i {
+        font-size: 1.2rem;
+    }
+
+    .header .search-bar input {
+        width: 100%;
+        padding: 8px;
+    }
+}
+
+/* Responsividade para Celulares Pequenos (largura abaixo de 600px) */
+@media screen and (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .profile img {
+        width: 70px;
+    }
+
+    .profile h3 {
+        font-size: 16px;
+    }
+
+    .profile span {
+        font-size: 12px;
+    }
+
+    .profile button {
+        width: 100%;
+        padding: 7px;
+    }
+
+
+    .menu{
+        text-align: center;
+    }
+
+    .menu a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .quick-options {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header .logo {
+        font-size: 20px;
+    }
+
+    .header .search-bar input {
+        width: 100%;
+        padding: 7px;
+    }
+
+    .header-icons {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-icons i {
+        font-size: 1.4rem;
+    }
+
+    .tags span {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+}
+
+/* Responsividade para Celulares Muito Pequenos (largura abaixo de 400px) */
+@media screen and (max-width: 400px) {
+    .profile img {
+        width: 60px;
+    }
+
+    .profile h3 {
+        font-size: 14px;
+    }
+
+    .profile span {
+        font-size: 10px;
+    }
+
+    .profile button {
+        padding: 5px;
+    }
+
+    .menu a {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .quick-options {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .header .logo {
+        font-size: 18px;
+    }
+
+    .header-icons i {
+        font-size: 0.9rem;
+    }
+
+    .tags span {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+
+}

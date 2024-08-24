@@ -126,7 +126,7 @@ button{
 /* Estilo para dispositivos móveis (tela menor que 768px) */
 @media (max-width: 768px) {
     .form-box {
-        width: 90%;
+        width: 80%;
         height: auto;
         padding: 20px;
     }

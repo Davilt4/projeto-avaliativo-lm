@@ -79,8 +79,18 @@ body {
     margin-bottom: 20px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
 .header .logo {
     font-size: 24px;
+}
+
+.header .logo img {
+    width: 3rem
 }
 
 .header .search-bar input {
@@ -187,7 +197,7 @@ footer a {
 
 
 
-/* Responsividade para Tablets (largura entre 600px e 768px) */
+/* largura entre 600px e 768px */
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -237,9 +247,13 @@ footer a {
         width: 100%;
         padding: 8px;
     }
+
+    .logo img{
+        display: none;
+    }
 }
 
-/* Responsividade para Celulares Pequenos (largura abaixo de 600px) */
+/* largura abaixo de 600px */
 @media screen and (max-width: 600px) {
     .sidebar {
         width: 100%;
@@ -297,6 +311,10 @@ footer a {
 
     .header .logo {
         font-size: 20px;
+    }
+
+    .logo img {
+        display: none;
     }
 
     .header .search-bar input {

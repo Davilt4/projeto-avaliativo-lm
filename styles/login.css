@@ -12,7 +12,7 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url(../images/background.webp) no-repeat;
+    background: url(../images/laptop_code_programming_212332_1920x1200.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -121,7 +121,7 @@ button{
 }
 
 
-/* Estilo para dispositivos móveis (tela menor que 768px) */
+/* tela menor que 768px */
 @media (max-width: 768px) {
     .form-box {
         width: 80%;
@@ -146,7 +146,7 @@ button{
     }
 }
 
-/* Estilo para tablets (tela entre 768px e 1024px) */
+/* tela entre 768px e 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
     .form-box {
         width: 70%;

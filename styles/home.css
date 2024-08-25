@@ -1,3 +1,7 @@
+:root{
+    --blue:#5b6bb9;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -42,7 +46,7 @@ body {
     margin-top: 10px;
     padding: 10px 20px;
     border: none;
-    background-color: #505b94;
+    background-color: var(--blue);
     color: #fff;
     cursor: pointer;
     border-radius: .5rem;
@@ -57,7 +61,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: #505b94;
+    background-color: var(--blue);
     color: #fff;
     border-radius: .5rem;
 }
@@ -93,7 +97,7 @@ body {
 }
 
 .header-icons i:hover {
-    color: #505b94;
+    color: var(--blue);
 }
 
 .quick-options {
@@ -123,10 +127,14 @@ body {
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: #505b94;
+    background-color: var(--blue);
     color: #fff;
     cursor: pointer;
     border-radius: .5rem;
+}
+
+.box button:hover{
+    background-color: #505b94;
 }
 
 .tags span {
@@ -136,6 +144,7 @@ body {
     background-color: #555;
     border-radius: 5px;
     color: #bbb;
+    cursor: pointer;
 }
 
 .courses {

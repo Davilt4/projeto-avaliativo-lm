@@ -157,20 +157,22 @@ body {
     cursor: pointer;
 }
 
-.courses-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .courses {
     background-color: #444;
     padding: 20px;
     border-radius: 10px;
 }
 
+.courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .courses h3 {
+    margin-top: 0;
     margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 .course {
@@ -181,7 +183,7 @@ body {
 }
 
 .course:hover {
-    
+    transform: scale(1.05);
 }
 
 .course img {

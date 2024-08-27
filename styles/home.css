@@ -212,8 +212,8 @@ footer a {
 
 
 
-/* largura entre 600px e 768px */
-@media screen and (max-width: 768px) {
+/* largura entre 600px e 890px */
+@media screen and (max-width: 850px) {
     .container {
         flex-direction: column;
     }

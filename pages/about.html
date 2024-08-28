@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <style>
+        :root {
+            --blue: #5b6bb9;
+            --background-dark: #1c1c1c;
+            --sidebar-dark: #2b2b2b;
+            --text-light: #bbb;
+            --background-light: #333;
+            --box-background: #444;
+            --text-color: #fff;
+            --highlight-color: #505b94;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--background-dark);
+            color: var(--text-color);
+        }
+        
+        .container {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .sidebar {
+            width: 100%;
+            background-color: var(--sidebar-dark);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile h3 {
+            margin: 10px 0;
+        }
+
+        .profile span {
+            font-size: 14px;
+            color: var(--text-light);
+            display: block;
+        }
+
+        .profile button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background-color: var(--blue);
+            color: var(--text-color);
+            cursor: pointer;
+            border-radius: 0.5rem;
+        }
+
+        .menu a {
+            display: block;
+            padding: 15px;
+            margin-bottom: 5px;
+            color: var(--text-light);
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: var(--blue);
+            color: var(--text-color);
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: var(--background-light);
+        }
+
+        .header {
+            background-color: var(--blue);
+            padding: 20px;
+            text-align: center;
+            color: var(--text-color);
+            font-size: 1.5rem;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        section h3 {
+            margin-bottom: 15px;
+            color: var(--text-color);
+        }
+
+        section p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: var(--text-light);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--sidebar-dark);
+            color: var(--text-light);
+            margin-top: auto;
+        }
+
+        footer a {
+            color: var(--highlight-color);
+            text-decoration: none;
+        }
+
+        /* Responsividade */
+        @media screen and (max-width: 850px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                padding: 15px;
+            }
+
+            .profile img {
+                width: 80px;
+            }
+
+            .profile h3 {
+                font-size: 18px;
+            }
+
+            .profile span {
+                font-size: 14px;
+            }
+
+            .profile button {
+                width: 30%;
+                padding: 8px;
+            }
+
+            .menu a {
+                padding: 10px;
+                font-size: 16px;
+            }
+
+            .main-content {
+                padding: 15px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .sidebar {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .profile img {
+                width: 70px;
+            }
+
+            .profile h3 {
+                font-size: 16px;
+            }
+
+            .profile span {
+                font-size: 12px;
+            }
+
+            .profile button {
+                width: 30%;
+                padding: 7px;
+            }
+
+            .menu a {
+                padding: 8px;
+                font-size: 14px;
+            }
+
+            .main-content {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="../images/user-circle-svgrepo-com.svg" alt="Profile Picture">
+                <h3>Wesley Davi</h3>
+                <span>Estudante</span>
+                <button>Ver Perfil</button>
+            </div>
+            <nav class="menu">
+                <a href="../pages/home.html">home</a>
+                <a href="#">Sobre</a>
+                <a href="../pages/courses.html">Cursos</a>
+                <a href="../index.html">Sair</a>
+            </nav>
+        </aside>
+        
+        <main class="main-content">
+            <header class="header">
+                <div class="logo">DW Cursos</div>
+            </header>
+            
+            <section>
+                <h3>Sobre Nós</h3>
+                <p>
+                    Bem-vindo à DW Cursos! Somos uma plataforma dedicada a oferecer cursos de alta qualidade em diversas áreas de tecnologia. 
+                    Nossa missão é capacitar estudantes e profissionais com habilidades essenciais para o mercado de trabalho.
+                </p>
+                <p>
+                    Fundada por Davi Leite e John Wesley, nossa plataforma é o resultado de anos de experiência em ensino e desenvolvimento de software.
+                    Aqui, você encontrará cursos que abrangem desde linguagens de programação até tópicos avançados como Machine Learning e Desenvolvimento de Jogos.
+                </p>
+                <p>
+                    Acreditamos que a educação é a chave para o sucesso, e estamos comprometidos em oferecer o melhor conteúdo possível para nossos alunos.
+                    Junte-se a nós e comece sua jornada de aprendizado hoje mesmo!
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 by <a href="#">Davi Leite E John Wesley</a></p>
+    </footer>
+</body>
+</html>

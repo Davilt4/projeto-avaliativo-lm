@@ -235,10 +235,11 @@ footer a {
 
     .profile span {
         font-size: 14px;
+        display: block;
     }
 
     .profile button {
-        width: 100%;
+        width: 30%;
         padding: 8px;
     }
 
@@ -308,7 +309,7 @@ footer a {
     }
 
     .profile button {
-        width: 50%;
+        width: 30%;
         padding: 7px;
     }
 

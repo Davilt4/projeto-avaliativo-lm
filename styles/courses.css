@@ -3,9 +3,9 @@
 
 .courses-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 1.01rem;
 }
 
 .course{
@@ -40,13 +40,13 @@
 
     .sidebar {
         text-align: center;
-    }   
-
+    } 
     .courses-container{
         flex-wrap: nowrap;
         gap: 20px;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
+        justify-content: space-around;
     }
 
     .course{
@@ -69,6 +69,7 @@
 
     .courses-container{
         flex-wrap: nowrap;
+        justify-content: space-around;
         gap: 20px;
         overflow-x: auto;
         scroll-snap-type: x mandatory;

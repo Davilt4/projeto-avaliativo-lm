@@ -14,7 +14,7 @@ O projeto conta com as seguintes páginas:
 Atualmente (etapa 1), o projeto não possui muitas funcionalidades, sendo desenvolvido apenas com HTML e CSS.
 
 ## Contatos
-Em caso de dúvidas ou sugestões, entre em contato:
+Em caso de dúvidas ou sugestões, entre em contato: Comentario de teste
 - **Davi Leite:** [davi.leite@academico.ifpb.edu.br](mailto:davi.leite@academico.ifpb.edu.br)
 - **John Weslley:** [john.weslley@academico.ifpb.edu.br](mailto:john.weslley@academico.ifpb.edu.br)
 

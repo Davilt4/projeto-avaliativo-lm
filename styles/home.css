@@ -185,6 +185,7 @@ body {
 .course:hover {
     transform: scale(1.05);
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 .course img {
@@ -224,6 +225,7 @@ footer a {
     .sidebar {
         width: 100%;
         padding: 15px;
+        text-align: center;
     }
 
     .profile img {
@@ -294,6 +296,7 @@ footer a {
     .sidebar {
         width: 100%;
         padding: 10px;
+        text-align: center;
     }
 
     .profile img {

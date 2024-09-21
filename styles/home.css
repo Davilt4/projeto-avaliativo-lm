@@ -10,16 +10,17 @@ body {
     color: #fff;
 }
 
-.container {
+.container-fluid {
     display: flex;
-    min-height: 100vh;
+    min-height: 100vh;  
 }
 
 .sidebar {
-    width: 250px;
+    width: 20%;
     background-color: #2b2b2b;
     padding: 20px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .profile {
@@ -42,16 +43,6 @@ body {
     color: #bbb;
 }
 
-.profile button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    background-color: var(--blue);
-    color: #fff;
-    cursor: pointer;
-    border-radius: .5rem;
-}
-
 .menu a {
     display: block;
     padding: 15px;
@@ -61,9 +52,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: var(--blue);
     color: #fff;
-    border-radius: .5rem;
 }
 
 .main-content {
@@ -218,7 +207,7 @@ footer a {
 
 /* largura entre 600px e 890px */
 @media screen and (max-width: 850px) {
-    .container {
+    .container-fluid {
         flex-direction: column;
     }
 
@@ -239,11 +228,6 @@ footer a {
     .profile span {
         font-size: 14px;
         display: block;
-    }
-
-    .profile button {
-        width: 30%;
-        padding: 8px;
     }
 
     .menu a {
@@ -311,12 +295,6 @@ footer a {
         font-size: 12px;
         display: block;
     }
-
-    .profile button {
-        width: 30%;
-        padding: 7px;
-    }
-
 
     .menu{
         text-align: center;

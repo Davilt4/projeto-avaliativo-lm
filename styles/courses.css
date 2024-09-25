@@ -8,13 +8,16 @@
     gap: 1.01rem;
 }
 
+.sidebar {
+    width: 10%;
+}
+
+
 .course{
     width: 18rem;
     display: flex;
     flex-direction: column;
 }
-
-
 
 .course a{
     text-decoration: none;

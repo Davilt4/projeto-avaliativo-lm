@@ -9,7 +9,7 @@
 }
 
 .sidebar {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -17,8 +17,6 @@
     width: 18rem;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* esconder partes da imagem que excederem o contêiner */
-    position: relative;
 }
 
 .course a{
@@ -30,7 +28,6 @@
     text-align: center;
     display: block;
     margin-top: auto;
-
 }
 
 .course a:hover{
@@ -39,11 +36,6 @@
 
 .course img{
     width: 100%;
-}
-
-.course img:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
 }
 
 @media screen and (max-width: 850px) {

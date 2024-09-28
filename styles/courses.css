@@ -17,6 +17,8 @@
     width: 18rem;
     display: flex;
     flex-direction: column;
+    overflow: hidden; /* esconder partes da imagem que excederem o contêiner */
+    position: relative;
 }
 
 .course a{
@@ -36,13 +38,19 @@
 }
 
 .course img{
-    width: 18rem;
+    width: 100%;
+}
+
+.course img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 850px) {
 
     .sidebar {
         text-align: center;
+        width: 100%;
     } 
     .courses-container{
         flex-wrap: nowrap;

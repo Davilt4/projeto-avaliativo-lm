@@ -171,12 +171,6 @@ body {
     box-shadow: 1px 1px 5px #313131;
 }
 
-.course:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
 .course img {
     width: 17rem;
     height: 10rem;

@@ -175,6 +175,15 @@ body {
     width: 17rem;
     height: 10rem;
     border-radius: .5rem;
+    transition: 1s ease;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.course img:hover {
+    transform: scale(1.1);
 }
 
 .course-info{

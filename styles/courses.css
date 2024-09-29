@@ -9,7 +9,7 @@
 }
 
 .sidebar {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -28,7 +28,6 @@
     text-align: center;
     display: block;
     margin-top: auto;
-
 }
 
 .course a:hover{
@@ -36,13 +35,14 @@
 }
 
 .course img{
-    width: 18rem;
+    width: 100%;
 }
 
 @media screen and (max-width: 850px) {
 
     .sidebar {
         text-align: center;
+        width: 100%;
     } 
     .courses-container{
         flex-wrap: nowrap;

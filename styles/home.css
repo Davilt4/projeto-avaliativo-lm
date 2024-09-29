@@ -171,16 +171,19 @@ body {
     box-shadow: 1px 1px 5px #313131;
 }
 
-.course:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
 .course img {
     width: 17rem;
     height: 10rem;
     border-radius: .5rem;
+    transition: 1s ease;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.course img:hover {
+    transform: scale(1.1);
 }
 
 .course-info{
@@ -273,6 +276,7 @@ footer a {
     .course img {
         width: 14rem;
     }
+
 }
 
 /* largura abaixo de 600px */
